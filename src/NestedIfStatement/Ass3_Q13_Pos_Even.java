@@ -12,17 +12,24 @@ public class Ass3_Q13_Pos_Even {
 		System.out.println("Enter the Value");
 		int a = sc.nextInt();
 		
-		if (a>=0)
+		if (a>0)
 		{
+			System.out.println("Positive Number");
 			if(a%2==0)
 			{
 				System.out.println("Number is Positive and Even");
 			}
+			else
+			{
+				System.out.println("Number is Odd");
+			}
+
 		}
+		
 		else
 		{
-			System.out.println("Number is not Positive and Even");
+			System.out.println("Negative Number");
 		}
-	}
+			}
 
 }

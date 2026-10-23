@@ -27,6 +27,10 @@ public class Q14 {
 		{
 			System.out.println("String does not contains A");
 		}
+		
+		
+		//display at index2
+		System.out.println("Element at index 2 : "+str1.charAt(2));
 
 	}
 
